@@ -1,0 +1,274 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+.main {
+  background-image: url(./images/heroImage.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 130vh;
+}
+
+.landingcon {
+  text-align: center;
+  color: white;
+  padding: 290px;
+  margin: auto;
+}
+
+.landingcon p {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 300px;
+}
+
+.landingcon h1 {
+  font-size: 90px;
+}
+
+.nav {
+  width: 80%;
+  color: rgb(171, 167, 167);
+}
+.nav ul {
+  float: right;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 2px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.nav .navlogo {
+  width: 100%;
+  float: left;
+}
+
+.fix {
+  clear: both;
+}
+
+.brand {
+  color: #ffff;
+  padding: 5px;
+  margin: 30px 50px;
+  text-decoration: none;
+  white-space: nowrap;
+  float: left;
+}
+
+.brand:hover {
+  color: gray;
+}
+
+.aboutme {
+  text-align: center;
+  margin: 40px;
+  background-color: #503222;
+  padding-bottom: 70px;
+  border-radius: 20px;
+  color: white;
+}
+.aboutme ul {
+  list-style: none;
+  margin: 8px;
+  text-align: left;
+}
+.aboutme p {
+  font-weight: 300;
+}
+
+.aboutimg img {
+  float: left;
+  padding: 50px;
+  margin: 30px 30px;
+}
+
+.aboutmecon {
+  margin: 20px;
+  width: 90%;
+  padding-top: 70px;
+}
+
+.Services {
+  height: 1220px;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  
+}
+
+.Services h1 {
+  padding: 15px;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.Services h2 {
+  margin: 5px;
+}
+.Services p {
+  width: 95%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.Services .card {
+  border: 1px solid black;
+  width: 32%;
+  height: 330px;
+  margin: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+
+
+}
+
+.Services .card,
+:hover {
+  border-color: green;
+}
+.Services .card .fa-solid:hover {
+  color: green;
+}
+
+.Services .card .fa-brands:hover {
+  color: green;
+}
+
+.Services .card .fa-regular:hover {
+  color: green;
+}
+
+.Services .card .fa-brands,
+.fa-solid {
+  margin: 5px;
+}
+
+.card h2 {
+  font-weight: 300;
+}
+
+.Portfolio {
+  height: 920px;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.Portfolio h1 {
+  display: block;
+  font-size: 2em;
+  
+  font-weight: bold;
+}
+.Portfolio .card {
+  border: 1px solid black;
+  width: 415px;
+  height: 448px;
+  padding: 20px 20px;
+  margin: 16px 25px;
+  float: left;
+  align-items: center;
+}
+.Portfolio .card p {
+  text-align: left;
+  margin: 15px;
+}
+.Portfolio .card h2 {
+  font-weight: 700;
+  padding-top: 8px;
+}
+.card .green {
+  color: white;
+  margin: 20px 20px;
+  padding: 14px 20px;
+  background-color: #157347;
+  border-radius: 12px;
+  border-color: #157347;
+  border-style: none;
+}
+.card .green:hover {
+  background-color: #12673f;
+  cursor: pointer;
+}
+
+
+.contactme{
+  margin: 20px;
+  padding: 30px;
+  width: 90%;
+  height: 800px;
+  text-align: center;
+
+}
+
+.contactme input,textarea{
+  display: grid;
+  padding: 20px 40px;
+  margin: 20px;
+}
+
+
+.contactme .divcol{
+  width: 50%;
+}
+
+
+
+.contactme .divcol .subbro{
+  color: white;
+  background-color: #12673f;
+  padding: 20px 20px;
+  margin: 20px 20px;
+border: 1px solid white;
+float: left;
+}
+
+
+
+.contactme .divcol .subbro:hover{
+background-color: white;
+color: #12673f;
+border-color: #12673f;
+
+}
+
+
+.contactme iframe{
+  padding: 30px 30px;
+  margin-bottom: 40px;
+  display: block;
+  
+}
+
+
+
+.contactme
+.colleft{
+  float: right;
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+
+}
+
+
+.center {
+  text-align: center;
+  display: block;
+}
